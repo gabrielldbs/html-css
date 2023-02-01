@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+body{
+    background-color: #66ebc5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    
+}
+
+header{
+    background-image: linear-gradient(rgb(14, 192, 127), rgb(6, 101, 6));
+    margin: 0;
+    padding: 0;
+    box-shadow: 5px 2px 5px 1px black;
+}
+
+.text-up > h1 {
+    margin: 0;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+
+.text-up > p {
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+    margin-top: 50px;
+   
+}
+
+ul > li {
+    color: white;
+    
+}
+
+.home-bar {
+    font-weight: bolder;
+    padding: 10px;
+    margin: 0 0 0 0
+}
+
+.bloco-1 {
+    box-shadow: 0px 0px 10px 1px black; 
+    margin-left: 330px;
+    margin-top: 3px;
+    background-color: white;
+    width: 60%
+}
+
+.bloco-1 > h1 {
+    color: rgb(1, 108, 1);
+    font-family: 'idroid';
+    margin: 0px;
+    padding-left: 15px;
+    padding-top: 40px;
+    text-indent:2%
+}
+
+.bloco-1 > p {
+    line-height: 30px;
+    padding-left: 15px;
+    padding-top: 2px;
+    text-indent:5%;
+    margin: 20px;
+    letter-spacing: 0.5px;
+
+}
+
+.image-1 {
+    margin-left: 60px;
+}
+
+.last-text > p {
+    line-height: 30px;
+    padding-left: 15px;
+    padding-top: 2px;
+    text-indent:5%;
+    margin: 20px;
+    margin-bottom: 0;
+    letter-spacing: 0.5px;
+}
+
+
+.bloco-2 {
+    box-shadow: 0px 0px 10px 1px black;
+    margin-left: 330px;
+    background-color: white;
+    width: 60%
+    
+    
+}
+
+.bloco-2 > h1 {
+    color: rgb(1, 108, 1);
+    font-family: 'idroid';
+    margin: 0px;
+    padding-left: 15px;
+    padding-top: 20px;
+    text-indent:2%
+}
+
+.bloco-2 > p {
+    line-height: 30px;
+    padding-left: 15px;
+    padding-top: 2px;
+    text-indent:5%;
+    margin: 20px;
+    letter-spacing: 0.5px;
+}
+
+.image-2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.text-down {
+    line-height: 30px;
+    padding-left: 15px;
+    padding-top: 2px;
+    text-indent:5%;
+    margin: 20px;
+    letter-spacing: 0.5px;
+        
+}
+
+.image-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.last-text2 {
+    line-height: 30px;
+    padding-left: 15px;
+    padding-top: 2px;
+    text-indent:5%;
+    margin: 20px;
+    letter-spacing: 0.5px;
+}
+
+.div video{
+    margin: 0;
+    padding: 0;
+}
+.video{
+    display:flex;
+    justify-content: center;   
+     
+}
+
+.bloco-3 {
+    border-radius: 0px 0px 10px 10px;
+    margin-left: 330px;
+    margin-top: 0px;
+    background-color: white;
+    width: 60%;
+    height: 600px;
+    box-shadow: 0px 0px 10px 1px black;  
+}
+
+.textbloco-3 > h2 {
+    color: white;
+    border-radius: 12px 12px 0px 0px;
+    width: 850px;
+    margin: 0;
+    margin-left: 30px;
+    line-height: 30px;
+    text-indent:5%;
+    letter-spacing: 0.5px;
+    background-color: green;
+}
+
+.textbloco-3 > p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 850px;
+    height: 100px;
+    margin: 0;
+    margin-left: 30px;
+    text-indent:5%;
+    letter-spacing: 0.5px;
+    background-color: rgba(74, 243, 74, 0.456);
+}
+
+.check {
+    display: flex;
+    background-color:rgba(74, 243, 74, 0.456);
+    margin-left: 30px;
+    width: 850px;;
+}
+
+.check > li {
+    margin-left: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.check2{
+    display: flex;
+    padding-left: 200px;
+}
+
+.text > p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 850px;
+    height: 100px;
+    margin: 0;
+    margin-left: 30px;
+    text-indent:5%;
+    letter-spacing: 0.5px;
+    background-color: rgba(74, 243, 74, 0.456);
+}
+
+.ultimo > p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 850px;
+    height: 60px;
+    margin: 0;
+    margin-left: 30px;
+    text-indent:5%;
+    letter-spacing: 0.5px;
+    background-color: rgba(74, 243, 74, 0.456);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.ultimo-2 > p{
+    text-indent:5%;
+    letter-spacing: 0.5px;
+    width: 800px;
+    margin-left: 90px;
+}
+
+.ultimo-3 > p {
+    text-indent:5%;
+    letter-spacing: 0.5px;
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 50px;
